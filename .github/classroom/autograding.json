@@ -1,0 +1,67 @@
+{
+    "tests": [
+        {
+            "name": "hello",
+            "run": "pytest -v tests/test_hello.py",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 1
+        },
+        {
+            "name": "factorial",
+            "run": "pytest -v tests/test_python_basic.py::test_factorial",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 1
+        },
+        {
+            "name": "fibonacci",
+            "run": "pytest -v tests/test_python_basic.py::test_fibonacci",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 1
+        },
+        {
+            "name": "intersection",
+            "run": "pytest -v tests/test_python_basic.py::test_intersection",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 2
+        },
+        {
+            "name": "problem_1",
+            "run": "pytest -v tests/test_pytorch_basic.py::test_problem_1",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 1
+        },
+        {
+            "name": "problem_2",
+            "run": "pytest -v tests/test_pytorch_basic.py::test_problem_2",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 2
+        },
+        {
+            "name": "problem_3",
+            "run": "pytest -v tests/test_pytorch_basic.py::test_problem_3",
+            "input": "",
+            "output": "",
+            "comparison": "exact",
+            "timeout": 10,
+            "points": 2
+        }
+    ]
+}
